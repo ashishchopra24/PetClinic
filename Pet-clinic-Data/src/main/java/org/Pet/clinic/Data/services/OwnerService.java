@@ -4,10 +4,6 @@ import java.util.Set;
 
 import org.Pet.clinic.Data.model.Owner;
 
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner, Long> {
 
-	Owner findBylastName(String lastName);
-	Owner findById(Long id);
-	Owner save(Owner owner);
-	Set<Owner> findAll();
 }
