@@ -1,4 +1,4 @@
-package model;
+package org.Pet.clinic.Data.model;
 
 public class PetType {
 	
