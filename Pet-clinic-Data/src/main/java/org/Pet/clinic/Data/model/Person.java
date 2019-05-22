@@ -1,6 +1,6 @@
 package org.Pet.clinic.Data.model;
 
-public class Person {
+public class Person extends BaseEntity{
 	
 	String firstname;
 	String lastname;
